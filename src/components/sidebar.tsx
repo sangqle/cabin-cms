@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
     return (
-        <div className="flex flex-col p-8 w-80 h-100 bg-red-200">
+        <div className="flex h-full overflow-hidden flex-col p-8 w-80 bg-slate-100">
             <Link href="/dashboard">
                 Danh sách sản phẩm
             </Link>

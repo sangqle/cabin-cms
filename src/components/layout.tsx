@@ -4,9 +4,10 @@ import Header from './header';
 
 export default function Layout({ children }: any) {
     return (
-        <div className='h-full'>
+        <div className='overflow-hidden' style={{
+        }}>
             <Header />
-            <div className='flex h-full'>
+            <div className='flex '>
                 <SideBar />
                 <main>{children}</main>
             </div>
